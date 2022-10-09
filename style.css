@@ -75,10 +75,13 @@
     align-items: center;
   }
 
+  .inactive{
+    display:none;
+  }
   .desktop-menu {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 60px;
+    right: 60px;
     background:var(--white);
     width: 100px;
     height: auto;
